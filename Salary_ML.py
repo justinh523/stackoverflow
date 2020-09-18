@@ -99,7 +99,7 @@ def find_optimal_lm_mod(X, y, cutoffs, test_size = .30, random_state=42, plot=Tr
     #split the data into train and test
     X_train, X_test, y_train, y_test = train_test_split(reduce_X, y, test_size = test_size, random_state=random_state)
 
-    #fit the model
+    #fit the model LMAO
     lm_model = LinearRegression(normalize=True)
     lm_model.fit(X_train, y_train)
 
